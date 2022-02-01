@@ -30,9 +30,9 @@ for a grade of A:
   - if string is HELLO JOHN and the number numbers are 1 and 6, output HJLLO EOHN
 
 Submit your java source code file to CodePost. Include the following comments at the top of your file:
-// NAME: your name
-// CLASS: CPSC 200
-// DATE: current date
-// VERSION: grade version you completed
-// TIME: how much time did you spend on this program
-// STATUS: write down any problems you had and whether or not the program works, be specific
+ // NAME: your name
+ // CLASS: CPSC 200
+ // DATE: current date
+ // VERSION: grade version you completed
+ // TIME: how much time did you spend on this program
+ // STATUS: write down any problems you had and whether or not the program works, be specific
