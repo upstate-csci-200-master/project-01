@@ -3,15 +3,15 @@ play with random numbers and strings
 
 Write a Java program named RandomStrings.java that does the following:
 
-for a grade of C: 
-  - read in an integer and use this to seed your random number generator (see this example: https://www.geeksforgeeks.org/random-setseed-method-in-java-with-examples/)
+for a grade of C:  
   - read in a string
-  - set your random number generator using a seed of 100
-  - pick a random number between 0 and the length of the string-1
-  - output a new string that removes the letter at the random number
+  - set your random number generator using a seed of 100 (example: https://www.geeksforgeeks.org/random-setseed-method-in-java-with-examples/)
+  - pick a random number between 1 and the length of the string-1 (example: https://www.codegrepper.com/code-examples/java/java+random+number+between+1+and+10)
+  - output a new string that removes the letter at the random number position of the string
   - for example if the string is HELLO JOHN and the random number is 3, output HELO JOHN
   - another example if string is GOODBYE SALLY and the random number is 0, output OODBYE SALLY
   - if string is GOODBYE SALLY and the random number is 12, output GOODBYE SALL
+  - if string is 123456789 and random number is 6, output 12345789
   
   
 for a grade of B:
@@ -24,10 +24,20 @@ for a grade of B:
 
 for a grade of A: 
   - in addition to the B version
-  - pick 2 random numbers between 0 and the length of the string-1, make sure 2nd random number is greater than the first
-  - output a new string which exchanges the characters at the 2 random positions
-  - for example if the string is HELLO JOHN and the random numbers are 2 and 5, output HE LOLJOHN
-  - if string is HELLO JOHN and the number numbers are 1 and 6, output HJLLO EOHN
+  - output the reverse of the original string (DO NOT use any loops); (example: https://www.javatpoint.com/java-stringbuilder-reverse-method)
+  - pick another random number between 1 and length of the string-1
+  - output a new string that reverse all the characters starting at the random position to the end of the string
+
+FOR ALL VERSIONS add the following comments as appropriate
+```
+// create random object
+
+// C version code
+
+// B version code
+
+// A version code
+```
 
 Submit your java source code file to CodePost. Include the following comments at the top of your file:
 ```
