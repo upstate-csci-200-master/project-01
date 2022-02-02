@@ -23,7 +23,7 @@ for a grade of B:
 
 
 for a grade of A: 
-  - read a string
+  - in addition to the B version
   - pick 2 random numbers between 0 and the length of the string-1, make sure 2nd random number is greater than the first
   - output a new string which exchanges the characters at the 2 random positions
   - for example if the string is HELLO JOHN and the random numbers are 2 and 5, output HE LOLJOHN
