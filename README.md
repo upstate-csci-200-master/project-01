@@ -7,7 +7,7 @@ for a grade of C:
   - read in a string
   - set your random number generator using a seed of 100 (example: https://www.geeksforgeeks.org/random-setseed-method-in-java-with-examples/)
   - pick a random number between 1 and the length of the string-1 (example: https://www.codegrepper.com/code-examples/java/java+random+number+between+1+and+10)
-  - output a new string that removes the letter at the random number position of the string
+  - output a new string that removes the letter at the random number position of the string; remember character positions in Java Strings start with 0
   - for example if the string is HELLO JOHN and the random number is 3, output HELO JOHN
   - another example if string is GOODBYE SALLY and the random number is 0, output OODBYE SALLY
   - if string is GOODBYE SALLY and the random number is 12, output GOODBYE SALL
@@ -17,7 +17,7 @@ for a grade of C:
 for a grade of B:
   - in addition to the C version
   - pick another random number between 1 and the length of the string-1
-  - output a new string that exchanges the letters at the random number and the one to the left of it
+  - output a new string that exchanges the letters at the random number position and the one to the left of it
   - for example if the string is HELLO JOHN and the random number is 7, output HELLO OJHN
   - another example if string is GOODBYE SALLY and the random number is 1, output EHLLO JOHN
 
