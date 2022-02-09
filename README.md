@@ -19,13 +19,13 @@ for a grade of B:
   - pick another random number between 1 and the length of the string-1
   - output a new string that exchanges the letters at the random number position and the one to the left of it
   - for example if the string is HELLO JOHN and the random number is 7, output HELLO OJHN
-  - another example if string is GOODBYE SALLY and the random number is 1, output EHLLO JOHN
+  - another example if string is HELLO JOHN and the random number is 1, output EHLLO JOHN
 
 
 for a grade of A: 
   - in addition to the B version
   - output the reverse of the original string (DO NOT use any loops); (example: https://www.javatpoint.com/java-stringbuilder-reverse-method)
-  - for example if the string is 123456789, output 98765432
+  - for example if the string is 123456789, output 987654321
   - pick another random number between 1 and length of the string-1
   - output a new string that reverse all the characters starting at the random position to the end of the string
   - for example if the string is 123456789 and random number is 5, output 123459876
